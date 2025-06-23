@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Pexcel-Web-Site/static/css/main.c22c6800.css",
+    "main.js": "/Pexcel-Web-Site/static/js/main.acc7da6b.js",
+    "static/js/453.b62fd689.chunk.js": "/Pexcel-Web-Site/static/js/453.b62fd689.chunk.js",
+    "static/media/AIRisk.png": "/Pexcel-Web-Site/static/media/AIRisk.03a129b63dbab7628ab5.png",
+    "static/media/PexcelLogo.png": "/Pexcel-Web-Site/static/media/PexcelLogo.dd4b6318feb978b50b83.png",
+    "static/media/Silos.png": "/Pexcel-Web-Site/static/media/Silos.0271efcd66d5afbe6be4.png",
+    "static/media/FrankZwaag.jpg": "/Pexcel-Web-Site/static/media/FrankZwaag.f6d871e970e2115a2004.jpg",
+    "static/media/Learning.png": "/Pexcel-Web-Site/static/media/Learning.458ab79117c1f917b327.png",
+    "static/media/SajeevMadathiveetil.jpg": "/Pexcel-Web-Site/static/media/SajeevMadathiveetil.01009e038c7a67251c08.jpg",
+    "static/media/Maturity.png": "/Pexcel-Web-Site/static/media/Maturity.bae471a579db290a536b.png",
+    "static/media/Progress.png": "/Pexcel-Web-Site/static/media/Progress.7b46b054872c1ad1e61b.png",
+    "static/media/Security.png": "/Pexcel-Web-Site/static/media/Security.2af153bd22f7983ea606.png",
+    "static/media/Portfolio.png": "/Pexcel-Web-Site/static/media/Portfolio.0d39b9fc7803cd8ed1f1.png",
+    "static/media/SushilKamanahalli.jpg": "/Pexcel-Web-Site/static/media/SushilKamanahalli.d43304b013ef8ac3f34f.jpg",
+    "index.html": "/Pexcel-Web-Site/index.html",
+    "main.c22c6800.css.map": "/Pexcel-Web-Site/static/css/main.c22c6800.css.map",
+    "main.acc7da6b.js.map": "/Pexcel-Web-Site/static/js/main.acc7da6b.js.map",
+    "453.b62fd689.chunk.js.map": "/Pexcel-Web-Site/static/js/453.b62fd689.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c22c6800.css",
+    "static/js/main.acc7da6b.js"
+  ]
+}
