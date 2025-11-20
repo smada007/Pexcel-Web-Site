@@ -325,7 +325,7 @@ export default function About() {
             <ProfileCard
               image = {profileImages.Sajeev}
               name="Sajeev Madathiveetil"
-              title="Director, Delivery & Partnership Lead"
+              title="Delivery & Partnership Lead"
               bio="AI-driven project leader passionate about transforming IT risk management with explainable, context-aware solutions."
               fullBio={`Sajeev Madathiveetil is a highly experienced Senior IT Project Manager and founder of Pexcel Solutions, with over 15 years of leadership in digital transformation, SaaS implementation, data migration, and AI-powered risk management across the New Zealand public sector. As the Delivery & Partnership Lead for AIRisk, he spearheads the design and rollout of a next-generation AI-assisted risk platform that transforms how IT projects predict and manage delivery risks.\n
                         Sajeev brings deep expertise in enterprise architecture, project governance, and benefit realisation, having successfully led multimillion-dollar initiatives at the Ministry for Primary Industries, Wellington City Council, and Ministry of Social Development. He is known for delivering value through structured delivery methods (PMP, PRINCE2, AgilePM), business-case leadership, and stakeholder alignment at the executive and ministerial level.\n

@@ -1,5 +1,5 @@
 import Frank from './FrankZwaag.jpg';
-import Sajeev from './SajeevMadathiveetil.jpg';
+import Sajeev from './SajeevMadathiveetil3.jpg';
 import Sushil from './SushilKamanahalli.jpg';
 
 const profileImages = {
