@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.c22c6800.css",
-    "main.js": "/static/js/main.b1a4e32c.js",
-    "static/js/453.b62fd689.chunk.js": "/static/js/453.b62fd689.chunk.js",
-    "static/media/AIRisk.png": "/static/media/AIRisk.03a129b63dbab7628ab5.png",
-    "static/media/PexcelLogo.png": "/static/media/PexcelLogo.dd4b6318feb978b50b83.png",
-    "static/media/Silos.png": "/static/media/Silos.0271efcd66d5afbe6be4.png",
-    "static/media/FrankZwaag.jpg": "/static/media/FrankZwaag.f6d871e970e2115a2004.jpg",
-    "static/media/Learning.png": "/static/media/Learning.458ab79117c1f917b327.png",
-    "static/media/SajeevMadathiveetil.jpg": "/static/media/SajeevMadathiveetil.01009e038c7a67251c08.jpg",
-    "static/media/Maturity.png": "/static/media/Maturity.bae471a579db290a536b.png",
-    "static/media/Progress.png": "/static/media/Progress.7b46b054872c1ad1e61b.png",
-    "static/media/Security.png": "/static/media/Security.2af153bd22f7983ea606.png",
-    "static/media/Portfolio.png": "/static/media/Portfolio.0d39b9fc7803cd8ed1f1.png",
-    "static/media/SushilKamanahalli.jpg": "/static/media/SushilKamanahalli.d43304b013ef8ac3f34f.jpg",
-    "index.html": "/index.html",
-    "main.c22c6800.css.map": "/static/css/main.c22c6800.css.map",
-    "main.b1a4e32c.js.map": "/static/js/main.b1a4e32c.js.map",
-    "453.b62fd689.chunk.js.map": "/static/js/453.b62fd689.chunk.js.map"
+    "main.css": "/Pexcel-Web-Site/static/css/main.5a1e6a2d.css",
+    "main.js": "/Pexcel-Web-Site/static/js/main.36389e39.js",
+    "static/js/453.b62fd689.chunk.js": "/Pexcel-Web-Site/static/js/453.b62fd689.chunk.js",
+    "static/media/AIRisk.png": "/Pexcel-Web-Site/static/media/AIRisk.03a129b63dbab7628ab5.png",
+    "static/media/PexcelLogo.png": "/Pexcel-Web-Site/static/media/PexcelLogo.dd4b6318feb978b50b83.png",
+    "static/media/Silos.png": "/Pexcel-Web-Site/static/media/Silos.0271efcd66d5afbe6be4.png",
+    "static/media/FrankZwaag.jpg": "/Pexcel-Web-Site/static/media/FrankZwaag.f6d871e970e2115a2004.jpg",
+    "static/media/Learning.png": "/Pexcel-Web-Site/static/media/Learning.458ab79117c1f917b327.png",
+    "static/media/Maturity.png": "/Pexcel-Web-Site/static/media/Maturity.bae471a579db290a536b.png",
+    "static/media/Progress.png": "/Pexcel-Web-Site/static/media/Progress.7b46b054872c1ad1e61b.png",
+    "static/media/Security.png": "/Pexcel-Web-Site/static/media/Security.2af153bd22f7983ea606.png",
+    "static/media/Portfolio.png": "/Pexcel-Web-Site/static/media/Portfolio.0d39b9fc7803cd8ed1f1.png",
+    "static/media/SajeevMadathiveetil3.jpg": "/Pexcel-Web-Site/static/media/SajeevMadathiveetil3.fa2174d467f6e682178b.jpg",
+    "static/media/SushilKamanahalli.jpg": "/Pexcel-Web-Site/static/media/SushilKamanahalli.f7a75e255de76dd86364.jpg",
+    "index.html": "/Pexcel-Web-Site/index.html",
+    "main.5a1e6a2d.css.map": "/Pexcel-Web-Site/static/css/main.5a1e6a2d.css.map",
+    "main.36389e39.js.map": "/Pexcel-Web-Site/static/js/main.36389e39.js.map",
+    "453.b62fd689.chunk.js.map": "/Pexcel-Web-Site/static/js/453.b62fd689.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c22c6800.css",
-    "static/js/main.b1a4e32c.js"
+    "static/css/main.5a1e6a2d.css",
+    "static/js/main.36389e39.js"
   ]
 }
