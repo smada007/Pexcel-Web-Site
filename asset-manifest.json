@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Pexcel-Web-Site/static/css/main.c8e12092.css",
-    "main.js": "/Pexcel-Web-Site/static/js/main.4e3e07ac.js",
-    "static/js/453.b62fd689.chunk.js": "/Pexcel-Web-Site/static/js/453.b62fd689.chunk.js",
-    "static/media/PexcelLogo.png": "/Pexcel-Web-Site/static/media/PexcelLogo.dd4b6318feb978b50b83.png",
-    "static/media/Silos.png": "/Pexcel-Web-Site/static/media/Silos.0271efcd66d5afbe6be4.png",
-    "static/media/Learning.png": "/Pexcel-Web-Site/static/media/Learning.458ab79117c1f917b327.png",
-    "static/media/Maturity.png": "/Pexcel-Web-Site/static/media/Maturity.bae471a579db290a536b.png",
-    "static/media/Progress.png": "/Pexcel-Web-Site/static/media/Progress.7b46b054872c1ad1e61b.png",
-    "static/media/Security.png": "/Pexcel-Web-Site/static/media/Security.2af153bd22f7983ea606.png",
-    "static/media/Portfolio.png": "/Pexcel-Web-Site/static/media/Portfolio.0d39b9fc7803cd8ed1f1.png",
-    "index.html": "/Pexcel-Web-Site/index.html",
-    "main.c8e12092.css.map": "/Pexcel-Web-Site/static/css/main.c8e12092.css.map",
-    "main.4e3e07ac.js.map": "/Pexcel-Web-Site/static/js/main.4e3e07ac.js.map",
-    "453.b62fd689.chunk.js.map": "/Pexcel-Web-Site/static/js/453.b62fd689.chunk.js.map"
+    "main.css": "/static/css/main.c8e12092.css",
+    "main.js": "/static/js/main.144fa064.js",
+    "static/js/453.b62fd689.chunk.js": "/static/js/453.b62fd689.chunk.js",
+    "static/media/PexcelLogo.png": "/static/media/PexcelLogo.dd4b6318feb978b50b83.png",
+    "static/media/Silos.png": "/static/media/Silos.0271efcd66d5afbe6be4.png",
+    "static/media/Learning.png": "/static/media/Learning.458ab79117c1f917b327.png",
+    "static/media/Maturity.png": "/static/media/Maturity.bae471a579db290a536b.png",
+    "static/media/Progress.png": "/static/media/Progress.7b46b054872c1ad1e61b.png",
+    "static/media/Security.png": "/static/media/Security.2af153bd22f7983ea606.png",
+    "static/media/Portfolio.png": "/static/media/Portfolio.0d39b9fc7803cd8ed1f1.png",
+    "index.html": "/index.html",
+    "main.c8e12092.css.map": "/static/css/main.c8e12092.css.map",
+    "main.144fa064.js.map": "/static/js/main.144fa064.js.map",
+    "453.b62fd689.chunk.js.map": "/static/js/453.b62fd689.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8e12092.css",
-    "static/js/main.4e3e07ac.js"
+    "static/js/main.144fa064.js"
   ]
 }
