@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
 import ScrollToTop from "../components/ScrollToTop";
-import AIRiskLogo from "../assets/AIRisk.png";
 import benefitsImages from "../assets/images/Benefits";
 
 // Add extra keyframes for scroll-triggered animations
@@ -36,8 +35,8 @@ styleSheet.textContent = `
 
   .animate-on-scroll {
     opacity: 0;
-  transform: translateY(20px);
-    }
+    transform: translateY(20px);
+  }
 
   .animate-fadeInUp {
     animation: fadeInUp 0.8s ease forwards;
@@ -52,17 +51,9 @@ styleSheet.textContent = `
   }
 
   @keyframes floatUp {
-    0% {
-      transform: translateY(0) scale(1);
-      opacity: 0.4;
-    }
-    50% {
-      opacity: 0.7;
-    }
-    100% {
-      transform: translateY(-200vh) scale(1.5);
-      opacity: 0;
-    }
+    0% { transform: translateY(0) scale(1); opacity: 0.4; }
+    50% { opacity: 0.7; }
+    100% { transform: translateY(-200vh) scale(1.5); opacity: 0; }
   }
 
   .bubble {
@@ -123,8 +114,16 @@ const benefitsData = [
   },
 ];
 
-export default function PexcelSolutionsWebsite() {
+export default function Home() {
   const navigate = useNavigate();
+
+  // Shared button styling so all buttons match perfectly
+  const primaryButtonClass =
+    `bg-secondary text-text font-bold py-2 px-6 rounded-lg
+     border-2 border-transparent
+     hover:bg-primary hover:text-white hover:border-white
+     hover:scale-105 hover:shadow-lg
+     transition duration-300`;
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
@@ -132,6 +131,7 @@ export default function PexcelSolutionsWebsite() {
       <ScrollAnimation />
       <Navbar />
 
+      {/* HERO */}
       <div className="bg-primary text-white relative overflow-hidden">
         {/* Floating bubbles */}
         <div className="absolute inset-0 z-0">
@@ -143,75 +143,98 @@ export default function PexcelSolutionsWebsite() {
           <span className="bubble bubble-6"></span>
         </div>
 
-        <div className="max-w-5xl mx-auto px-4 py-10 md:py-10 text-white relative z-10">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-10">
-            {/* Main hero text – Pexcel-first */}
-            <div
-              className="text-center md:text-left max-w-2xl animate-on-scroll"
+        <div className="max-w-5xl mx-auto px-4 py-12 text-white relative z-10">
+          <div className="max-w-4xl mx-auto text-left">
+            <h1
+              className="text-3xl sm:text-4xl font-extrabold mb-3 animate-on-scroll"
               data-animation="fadeInLeft"
             >
-              <h1 className="text-3xl sm:text-4xl font-extrabold mb-3">
-                Better Projects. Better Risk Management. Better Results.
-              </h1>
-              <p className="text-sm sm:text-base text-white/90 mb-6 leading-relaxed">
-                We help organisations modernise delivery, strengthen governance,
-                and improve risk visibility through practical consulting,
-                structured planning, and evidence-based decision making.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
-                <button
-                  onClick={() => navigate("/services")}
-                  className="bg-secondary text-text font-bold py-2 px-5 rounded-lg 
-                  border-2 border-transparent 
-                  hover:bg-primary hover:text-white hover:border-white
-                  hover:scale-105 hover:shadow-lg 
-                  transition duration-300"
-                >
-                  Explore Our Services
-                </button>
-                {/* <button
-                  onClick={() => navigate("/airisk")}
-                  className="bg-transparent text-white font-bold py-2 px-5 rounded-lg 
-                  border-2 border-white/70 
-                  hover:bg-white hover:text-primary
-                  hover:scale-105 hover:shadow-lg 
-                  transition duration-300"
-                >
-                  Learn About AIRisk
-                </button> */}
-              </div>
+              Better Projects. Better Risk Management. Better Results.
+            </h1>
+
+            <p
+              className="text-sm sm:text-base text-white/90 mb-6 leading-relaxed animate-on-scroll"
+              data-animation="fadeInLeft"
+            >
+              We help organisations modernise delivery, strengthen governance,
+              and improve risk visibility through practical consulting,
+              structured planning, and evidence-based decision making.
+            </p>
+
+            {/* Centered Explore Our Services button */}
+            <div
+              className="flex justify-center animate-on-scroll"
+              data-animation="fadeInUp"
+            >
+              <button
+                onClick={() => navigate("/services")}
+                className={primaryButtonClass}
+              >
+                Explore Our Services
+              </button>
             </div>
 
-            {/* Innovation Spotlight – AIRisk */}
-            <div className="w-64 sm:w-72 md:w-80 flex justify-center">
-              <div
-                className="bg-white/10 border border-white/20 rounded-2xl p-4 backdrop-blur-md shadow-lg 
-                           animate-on-scroll"
-                data-animation="fadeInRight"
-              >
-                <div className="flex flex-col items-center text-center">
-                  <img
-                    src={AIRiskLogo}
-                    alt="AIRisk Logo"
-                    className="w-28 h-auto object-contain mb-3"
-                  />
-                  <h3 className="text-lg font-semibold mb-1">
-                    Innovation Spotlight: AIRisk
-                  </h3>
-                  <p className="text-xs sm:text-sm text-white/85 mb-2">
-                    An AI-assisted risk model developed by Pexcel to support
-                    smarter project and portfolio risk identification with
-                    project managers always staying in control.
-                  </p>
+            {/* Solutions tiles under CTA */}
+            <div
+              className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 animate-on-scroll"
+              data-animation="fadeInUp"
+            >
+              {/* OpsRisk */}
+              <div className="bg-white rounded-2xl shadow-md p-6">
+                <h4 className="text-xl font-semibold text-text mb-2">
+                  OpsRisk
+                </h4>
+                <p className="text-sm text-gray-700 leading-relaxed mb-3">
+                  Practical, standards-aligned operational risk management with
+                  minimal change footprint.
+                </p>
+                <ul className="text-sm text-gray-700 space-y-1 mb-5">
+                  <li>• Lightweight and fast to implement</li>
+                  <li>• Built on familiar tools and patterns</li>
+                  <li>• Designed for real adoption</li>
+                </ul>
+                <div className="flex justify-center">
+                  <button
+                    onClick={() => navigate("/opsrisk")}
+                    className={primaryButtonClass}
+                  >
+                    Learn about OpsRisk
+                  </button>
+                </div>
+              </div>
+
+              {/* AIRisk */}
+              <div className="bg-white rounded-2xl shadow-md p-6">
+                <h4 className="text-xl font-semibold text-text mb-2">
+                  AIRisk
+                </h4>
+                <p className="text-sm text-gray-700 leading-relaxed mb-3">
+                  AI-assisted risk insight introduced where maturity and
+                  governance support it.
+                </p>
+                <ul className="text-sm text-gray-700 space-y-1 mb-5">
+                  <li>• Explainable, transparent AI suggestions</li>
+                  <li>• Humans remain in control</li>
+                  <li>• Works alongside existing workflows</li>
+                </ul>
+                <div className="flex justify-center">
                   <button
                     onClick={() => navigate("/airisk")}
-                    className="mt-2 text-xs font-semibold underline decoration-white/70 hover:decoration-white"
+                    className={primaryButtonClass}
                   >
-                    Find out how it works
+                    Learn about AIRisk
                   </button>
                 </div>
               </div>
             </div>
+
+            <p
+              className="text-xs text-white/80 mt-5 leading-relaxed animate-on-scroll"
+              data-animation="fadeInUp"
+            >
+              OpsRisk provides the operational risk foundation. AIRisk can be
+              introduced later as an optional insight layer.
+            </p>
           </div>
         </div>
       </div>
@@ -225,6 +248,7 @@ export default function PexcelSolutionsWebsite() {
           >
             How We Help
           </h2>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 justify-items-center gap-8">
             {benefitsData.map((solution, index) => (
               <div
@@ -235,11 +259,8 @@ export default function PexcelSolutionsWebsite() {
                 <div
                   className="w-full bg-white rounded-2xl shadow-xl
                              hover:shadow-2xl hover:border-primary hover:border-3
-                             hover:scale-105 focus-visible:scale-105
-                             transform cursor-pointer px-6 py-10
-                             flex flex-col transition-all duration-300
-                             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
-                  tabIndex={0}
+                             hover:scale-105 transform cursor-pointer px-6 py-10
+                             flex flex-col transition-all duration-300"
                 >
                   <div className="flex items-center gap-6 mb-6">
                     <img
@@ -256,11 +277,10 @@ export default function PexcelSolutionsWebsite() {
                       </h4>
                     </div>
                   </div>
-                  <div>
-                    <p className="text-gray-900 text-base leading-relaxed">
-                      {solution.description}
-                    </p>
-                  </div>
+
+                  <p className="text-gray-900 text-base leading-relaxed">
+                    {solution.description}
+                  </p>
                 </div>
               </div>
             ))}
@@ -282,11 +302,8 @@ function ScrollAnimation() {
           const className = `animate-${animationType}`;
 
           if (entry.isIntersecting) {
-            // Add the animation class when it comes into view
             entry.target.classList.add(className);
           } else {
-            // Remove the animation class when it leaves view,
-            // so it can be re-added next time it scrolls back in
             entry.target.classList.remove(className);
           }
         });
